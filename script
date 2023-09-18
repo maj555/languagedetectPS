@@ -1,0 +1,7 @@
+$systemLanguage = [System.Threading.Thread]::CurrentThread.CurrentCulture.Name
+
+if ($systemLanguage -eq "de-DE") {
+    Write-Host "eins zwei"
+} else {
+    Write-Host "one two"
+}
